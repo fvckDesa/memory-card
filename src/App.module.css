@@ -1,0 +1,26 @@
+.App {
+  min-height: 100vh;
+  padding-bottom: 50px;
+  background-color: #091e22;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 300px;
+}
+
+.header button {
+  width: 150px;
+  padding: 10px 15px;
+  border: solid 3px #b7d652;
+  border-radius: 5px;
+  background-color: #209c6f;
+  cursor: pointer;
+}

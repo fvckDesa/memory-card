@@ -1,0 +1,43 @@
+.gameBoard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: min(100%, 1200px);
+  min-height: 300px;
+  margin: auto;
+}
+
+.emptyGame {
+  color: #fff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #209c6f;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  flex: 1;
+  width: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card h1 {
+  padding: 10px;
+}
