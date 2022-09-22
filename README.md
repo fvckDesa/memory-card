@@ -2,7 +2,7 @@
 
 Memory card game with Rick and Morty characters
 
-[live demo]() :point_left:
+[live demo](https://fvckdesa.github.io/memory-card/) :point_left:
 
 ## Getting started
 
